@@ -1,2 +1,16 @@
-var userName=prompt ("Give me ur good name!");
-alert("this script works!!!"+userName);
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
+
+
+
+function clickHandler() {
+    outputDiv.innerText = "jsjsjsjsjs" + txtInput.value
+};
+
+
+btnTranslate.addEventListener
+(
+    "click",
+    clickHandler
+)

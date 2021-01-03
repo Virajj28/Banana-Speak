@@ -4,8 +4,7 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-
-    background-color: papayawhip;
+    background-color: rgb(247, 227, 189);
 }
 
 textarea {
@@ -22,7 +21,7 @@ textarea {
     height: 10vh;
     width:80%;
     margin: 1rem;
-    padding: 1rem;;
+    padding: 1rem;
 }
 
 #btn-translate{
@@ -30,7 +29,7 @@ textarea {
     margin: 2rem;
     padding: 1rem;
     height:auto;
-    background : #f0d62c;;
+    background : #f7d606;;
 
 }
 
@@ -38,12 +37,14 @@ h1{
     margin:inherit;
     background-color:orange;
     text-align:center;
+    margin-top: 1rem;
 }
 
 h3{
     margin: inherit;
     background-color: orange;
     text-align:center; 
-    ;
+    padding-top: 1rem;
+    margin-top: 7rem;
 }
 
